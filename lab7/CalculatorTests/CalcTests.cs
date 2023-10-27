@@ -2,40 +2,51 @@ using lab7;
 
 namespace CalculatorTests
 {
-    [TestFixture]
+    [TestFixture(10.3, 12.5)]
+    [TestFixture(43.143, 6.2)]
+    [TestFixture(125.65, 67.4)]
     public class Tests
     {
 
-        [Test]
+        private readonly double _eq1;
+        private readonly double _eq2;
+
+        public Tests(double eq1, double eq2)
+        {
+            _eq1 = eq1;
+            _eq2 = eq2;
+        }
+
+        [Test, Timeout(2000)]
         public void Sum_Test_EqualTo_ExpectedNumber()
         {
-            double expected = 10.3;
+            double expected = _eq1 + _eq2;
 
-            double result = Calculator.Add(5.2, 5.1);
+            double result = Calculator.Add(_eq1, _eq2);
             Assert.That(result, Is.EqualTo(expected));
         }
 
-        [Test]
+        [Test, Timeout(2000)]
         public void Sub_Test_EqualTo_ExpectedNumber()
         {
-            double expected = 30.8;
-            double result = Calculator.Sub(50.5, 19.7);
+            double expected = _eq1 - _eq2;
+            double result = Calculator.Sub(_eq1, _eq2);
             Assert.That(result, Is.EqualTo(expected));
         }
 
-        [Test]
+        [Test, Timeout(2000)]
         public void Mul_Test_EqualTo_ExpectedNumber()
         {
-            double expected = 3.7 * 8.3;
-            double result = Calculator.Mul(3.7, 8.3);
+            double expected = _eq1 * _eq2;
+            double result = Calculator.Mul(_eq1, _eq2);
             Assert.That(result, Is.EqualTo(expected));
         }
 
-        [Test]
+        [Test, Timeout(2000)]
         public void Div_Test_EqualTo_ExpectedNumber()
         {
-            double expected = 123.5 / 3.8;
-            double result = Calculator.Div(123.5, 3.8);
+            double expected = _eq1 / _eq2;
+            double result = Calculator.Div(_eq1, _eq2);
             Assert.That(result, Is.EqualTo(expected));
         }
     }
