@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "S67YiFW8gmp4lIrtZBz2wg6sHe5ARFj8QejgUEwbsmLcOscMgboILqqKBg/7xuK9n0hb7YdSxnZBRP5TBvf82g==",
+  "dgSpecHash": "kVLQ94NNeQWaGUaqS5U8/mtK8ThuYgdJNx2/1fya+tQOw0eu2HGSaZF0DsLN2ZwLhAaNdEPwHuNztBeJJM7z1Q==",
   "success": true,
   "projectFilePath": "F:\\BGTU\\Course3\\Sem1\\TestingQA\\lab7\\lab7\\lab7.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.console\\3.16.3\\nunit.console.3.16.3.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.consolerunner\\3.16.3\\nunit.consolerunner.3.16.3.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.nunitv2driver\\3.8.0\\nunit.extension.nunitv2driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.nunitv2resultwriter\\3.6.0\\nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.teamcityeventlistener\\1.0.7\\nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.vsprojectloader\\3.8.0\\nunit.extension.vsprojectloader.3.8.0.nupkg.sha512"
+  ],
   "logs": []
 }

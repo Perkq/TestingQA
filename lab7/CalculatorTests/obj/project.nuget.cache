@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dpBd4d37iFYFkiy9GaJHHxyqrjT5jrzPRlOSG/bR5u+pY3Hh3ophwZXPJhxqbDTKccTroUCsdrsxgOqFiqcEiw==",
+  "dgSpecHash": "CBut3a1xKp8LdCQvvkJuBUlsVRH3miQRf7zdDH2c14o6whY1w49iJWcKGUMh1efGc9WZj3jU8uyvP5G5PvfeSw==",
   "success": true,
   "projectFilePath": "F:\\BGTU\\Course3\\Sem1\\TestingQA\\lab7\\CalculatorTests\\CalculatorTests.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,13 @@
     "C:\\Users\\n2309\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\n2309\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\n2309\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.console\\3.16.3\\nunit.console.3.16.3.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.consolerunner\\3.16.3\\nunit.consolerunner.3.16.3.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.nunitv2driver\\3.8.0\\nunit.extension.nunitv2driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.nunitv2resultwriter\\3.6.0\\nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.teamcityeventlistener\\1.0.7\\nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
+    "C:\\Users\\n2309\\.nuget\\packages\\nunit.extension.vsprojectloader\\3.8.0\\nunit.extension.vsprojectloader.3.8.0.nupkg.sha512",
     "C:\\Users\\n2309\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\n2309\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
