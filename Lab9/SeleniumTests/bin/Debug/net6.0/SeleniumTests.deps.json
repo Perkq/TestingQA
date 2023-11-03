@@ -11,7 +11,10 @@
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
+          "NUnit.Console": "3.16.3",
+          "NUnit.Runners": "3.12.0",
           "NUnit3TestAdapter": "4.4.2",
+          "Selenium.Chrome.WebDriver": "85.0.0",
           "Selenium.WebDriver": "4.15.0",
           "coverlet.collector": "3.2.0"
         },
@@ -331,7 +334,29 @@
         }
       },
       "NUnit.Analyzers/3.6.1": {},
+      "NUnit.Console/3.16.3": {
+        "dependencies": {
+          "NUnit.ConsoleRunner": "3.16.3",
+          "NUnit.Extension.NUnitProjectLoader": "3.6.0",
+          "NUnit.Extension.NUnitV2Driver": "3.8.0",
+          "NUnit.Extension.NUnitV2ResultWriter": "3.6.0",
+          "NUnit.Extension.TeamCityEventListener": "1.0.7",
+          "NUnit.Extension.VSProjectLoader": "3.8.0"
+        }
+      },
+      "NUnit.ConsoleRunner/3.16.3": {},
+      "NUnit.Extension.NUnitProjectLoader/3.6.0": {},
+      "NUnit.Extension.NUnitV2Driver/3.8.0": {},
+      "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {},
+      "NUnit.Extension.TeamCityEventListener/1.0.7": {},
+      "NUnit.Extension.VSProjectLoader/3.8.0": {},
+      "NUnit.Runners/3.12.0": {
+        "dependencies": {
+          "NUnit.Console": "3.16.3"
+        }
+      },
       "NUnit3TestAdapter/4.4.2": {},
+      "Selenium.Chrome.WebDriver/85.0.0": {},
       "Selenium.WebDriver/4.15.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -456,12 +481,75 @@
       "path": "nunit.analyzers/3.6.1",
       "hashPath": "nunit.analyzers.3.6.1.nupkg.sha512"
     },
+    "NUnit.Console/3.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xLk1aH857DzkrTff35FLcZSUQ0AyWOovJWqv1VMA47ItlyfrDPUyryKcWY9h+DZrz/FOgiiBzsPSDxnDPnYgSw==",
+      "path": "nunit.console/3.16.3",
+      "hashPath": "nunit.console.3.16.3.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhc4f0oVdS70xLaulPu2dMuUWK6hLj5fWLWmUnvbxyEA9w41sZNe6Xb3vPkcp+5OrIqggmtcRbhX+o5hoz62Jg==",
+      "path": "nunit.consolerunner/3.16.3",
+      "hashPath": "nunit.consolerunner.3.16.3.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitProjectLoader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ev2+dCJShMNIATkYNm/vHEuieBfbismr9DcUfBvafJZf5vNyugXPuMXO/MaOFcJaoW9j6/zjMmXKG7R5umWzXA==",
+      "path": "nunit.extension.nunitprojectloader/3.6.0",
+      "hashPath": "nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2Driver/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l6MgFJPTnrlDaMXWfbUZ82h1uvtj0C1ExPpqm6HrYOBa5Z4MBwmFLqj85rnv9JMhu/Ju7jQB/FIaMbfoXInI2A==",
+      "path": "nunit.extension.nunitv2driver/3.8.0",
+      "hashPath": "nunit.extension.nunitv2driver.3.8.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/Nc+wgFRe3dT59/VjhiIT0SWfLMbb/Vc9AtBU3L71VOCs8zQnuNjCOEFLQL/Mq6XSaZeB2Sug9tUgTfCnQk9w==",
+      "path": "nunit.extension.nunitv2resultwriter/3.6.0",
+      "hashPath": "nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.TeamCityEventListener/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bw+ZwHsUmxqb9leo91qLEF7ggtdpawY2V6wNqHI6+ATa2SHxHxoxiV5UV07ZWDRpf/qlQJELNlZu7wIB3+w2qQ==",
+      "path": "nunit.extension.teamcityeventlistener/1.0.7",
+      "hashPath": "nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512"
+    },
+    "NUnit.Extension.VSProjectLoader/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CIScV9a7+wUu6Ylb+WO0q/WGWQVoB05TUj3XZHa1CO+2BInDdfIVkqtlrSguhy6D/AGIMaLVrCZpQkQ2m0bbzQ==",
+      "path": "nunit.extension.vsprojectloader/3.8.0",
+      "hashPath": "nunit.extension.vsprojectloader.3.8.0.nupkg.sha512"
+    },
+    "NUnit.Runners/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KNpc03ZPF8wUWdPnLwNch1ycqsUNJgsheVlsUQcsHStuN5S7HMuNEGAavBNVwsHGq++GmtgG0N1MBVEgmxFtFg==",
+      "path": "nunit.runners/3.12.0",
+      "hashPath": "nunit.runners.3.12.0.nupkg.sha512"
+    },
     "NUnit3TestAdapter/4.4.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-vA/iHYcR+LYw+pRWQugckC/zW2fXHaqMr2uA82NOBt8v4YK4wMJrQ7QC8XLc7PjetEZ96cPbBTWsDDtmQiRZTA==",
       "path": "nunit3testadapter/4.4.2",
       "hashPath": "nunit3testadapter.4.4.2.nupkg.sha512"
+    },
+    "Selenium.Chrome.WebDriver/85.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wRg7it2bBMyYtOsarTy0bWtS2fCZI08KGTef2kH381DYpGP+wX8j6f/7ABv1nmrUj5CCVmTeDeYeXS5g00JXSw==",
+      "path": "selenium.chrome.webdriver/85.0.0",
+      "hashPath": "selenium.chrome.webdriver.85.0.0.nupkg.sha512"
     },
     "Selenium.WebDriver/4.15.0": {
       "type": "package",
