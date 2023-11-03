@@ -20,6 +20,7 @@ namespace SeleniumTests
             driver = new ChromeDriver();
             baseURL = "https://wdl.by/";
             verificationErrors = new StringBuilder();
+           
         }
 
         [TearDown]
