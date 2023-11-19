@@ -39,7 +39,7 @@ namespace SeleniumTests
         }
 
         [Test]
-        public void Test1()
+        public void TestAddItemToBasket()
         {
             driver.Navigate().GoToUrl(baseURL);
 
@@ -54,6 +54,7 @@ namespace SeleniumTests
             Assert.That(driver.Title, Is.EqualTo("Солнцезащитные очки NOISES GZ1222 купить в Минске в салонах WDL Оптика"));
 
             driver.FindElement(By.ClassName("js-add-to-basket-detail")).Click();
+
             driver.Navigate().GoToUrl("https://wdl.by/basket/");
 
             Assert.That(driver.FindElements(By.ClassName("cart-item")).Count, Is.EqualTo(1));
